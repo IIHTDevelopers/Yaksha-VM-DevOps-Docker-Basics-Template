@@ -1,0 +1,349 @@
+[2025-04-22T16:44:45.741845 1660 ] === CCACHE 4.10.2 STARTED =========================================
+[2025-04-22T16:44:45.741953 1660 ] Configuration file: C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2025-04-22T16:44:45.741987 1660 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) absolute_paths_in_stderr = false
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) base_dir = 
+[2025-04-22T16:44:45.741987 1660 ] Config: (environment) cache_dir = C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) compiler = 
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) compiler_check = mtime
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) compiler_type = auto
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) compression = true
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) compression_level = 0
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) cpp_extension = 
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) debug = false
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) debug_dir = 
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) debug_level = 2
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) depend_mode = false
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) direct_mode = true
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) disable = false
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) extra_files_to_hash = 
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) file_clone = false
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) hard_link = false
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) hash_dir = true
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) ignore_headers_in_manifest = 
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) ignore_options = 
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) inode_cache = false
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) keep_comments_cpp = false
+[2025-04-22T16:44:45.741987 1660 ] Config: (environment) log_file = C:\Users\Capi\PYCHAR~1\DOCKER~1.PY\build\TEST_F~1.BUI\ccache-32140.txt
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) max_files = 0
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) max_size = 5.0 GiB
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) namespace = 
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) path = 
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) pch_external_checksum = false
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) prefix_command = 
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) prefix_command_cpp = 
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) read_only = false
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) read_only_direct = false
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) recache = false
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) remote_only = false
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) remote_storage = 
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) reshare = false
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) run_second_cpp = true
+[2025-04-22T16:44:45.741987 1660 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) stats = true
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) stats_log = 
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) temporary_dir = C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2025-04-22T16:44:45.741987 1660 ] Config: (default) umask = 
+[2025-04-22T16:44:45.742093 1660 ] Command line: C:\\Users\\Capi\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\ccache.exe C:\\Users\\Capi\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -o __constants.o -c -std=c11 -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -shared -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_MODULE -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\Capi\\AppData\\Local\\Programs\\Python\\Python38\\include -I. -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace __constants.c
+[2025-04-22T16:44:45.747193 1660 ] Hostname: vignesh
+[2025-04-22T16:44:45.747239 1660 ] Working directory: C:\Users\Capi\PYCHAR~1\DOCKER~1.PY\build\TEST_F~1.BUI
+[2025-04-22T16:44:45.747292 1660 ] Compiler: C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe
+[2025-04-22T16:44:45.747307 1660 ] Compiler type: gcc
+[2025-04-22T16:44:45.747647 1660 ] Detected input file: __constants.c
+[2025-04-22T16:44:45.747828 1660 ] Source file: __constants.c
+[2025-04-22T16:44:45.747847 1660 ] Object file: __constants.o
+[2025-04-22T16:44:45.748132 1660 ] Trying direct lookup
+[2025-04-22T16:44:45.748450 1660 ] Manifest key: 60cd5ktdd5pjh71ja7cickn71m3hifn4g
+[2025-04-22T16:44:45.748602 1660 ] Retrieved 60cd5ktdd5pjh71ja7cickn71m3hifn4g from local storage (C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/0/cd5ktdd5pjh71ja7cickn71m3hifn4gM)
+[2025-04-22T16:44:45.751274 12076] === CCACHE 4.10.2 STARTED =========================================
+[2025-04-22T16:44:45.751340 12076] Configuration file: C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2025-04-22T16:44:45.751435 12076] System configuration file: C:\ProgramData\ccache\ccache.conf
+Cache\ccache\ccache.conf
+[2025-04-22T16:44:45.751476 41668] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2025-04-22T16:44:45.751476 41668] Config: (default) absolute_paths_in_stderr = false
+[2025-04-22T16:44:45.751476 41668] Config: (default) base_dir = 
+[2025-04-22T16:44:45.751476 41668] Config: (environment) cache_dir = C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2025-04-22T16:44:45.751476 41668] Config: (default) compiler = 
+[2025-04-22T16:44:45.751476 41668] Config: (default) compiler_check = mtime
+[2025-04-22T16:44:45.751476 41668] Config: (default) compiler_type = auto
+[2025-04-22T16:44:45.751476 41668] Config: (default) compression = true
+[2025-04-22T16:44:45.751476 41668] Config: (default) compression_level = 0
+[2025-04-22T16:44:45.751476 41668] Config: (default) cpp_extension = 
+[2025-04-22T16:44:45.751476 41668] Config: (default) debug = false
+[2025-04-22T16:44:45.751476 41668] Config: (default) debug_dir = 
+[2025-04-22T16:44:45.751476 41668] Config: (default) debug_level = 2
+[2025-04-22T16:44:45.751476 41668] Config: (default) depend_mode = false
+[2025-04-22T16:44:45.751476 41668] Config: (default) direct_mode = true
+[2025-04-22T16:44:45.751476 41668] Config: (default) disable = false
+[2025-04-22T16:44:45.751476 41668] Config: (default) extra_files_to_hash = 
+[2025-04-22T16:44:45.751476 41668] Config: (default) file_clone = false
+[2025-04-22T16:44:45.751476 41668] Config: (default) hard_link = false
+[2025-04-22T16:44:45.751476 41668] Config: (default) hash_dir = true
+[2025-04-22T16:44:45.751476 41668] Config: (default) ignore_headers_in_manifest = 
+[2025-04-22T16:44:45.751476 41668] Config: (default) ignore_options = 
+[2025-04-22T16:44:45.751476 41668] Config: (default) inode_cache = false
+[2025-04-22T16:44:45.751476 41668] Config: (default) keep_comments_cpp = false
+[2025-04-22T16:44:45.751476 41668] Config: (environment) log_file = C:\Users\Capi\PYCHAR~1\DOCKER~1.PY\build\TEST_F~1.BUI\ccache-32140.txt
+[2025-04-22T16:44:45.751476 41668] Config: (default) max_files = 0
+[2025-04-22T16:44:45.751476 41668] Config: (default) max_size = 5.0 GiB
+[2025-04-22T16:44:45.751476 41668] Config: (default) msvc_dep_prefix = Note: including file:
+[2025-04-22T16:44:45.751476 41668] Config: (default) namespace = 
+[2025-04-22T16:44:45.751476 41668] Config: (default) path = 
+[2025-04-22T16:44:45.751476 41668] Config: (default) pch_external_checksum = false
+[2025-04-22T16:44:45.751476 41668] Config: (default) prefix_command = 
+[2025-04-22T16:44:45.751476 41668] Config: (default) prefix_command_cpp = 
+[2025-04-22T16:44:45.751476 41668] Config: (default) read_only = false
+[2025-04-22T16:44:45.751476 41668] Config: (default) read_only_direct = false
+[2025-04-22T16:44:45.751476 41668] Config: (default) recache = false
+[2025-04-22T16:44:45.751476 41668] Config: (default) remote_only = false
+[2025-04-22T16:44:45.751476 41668] Config: (default) remote_storage = 
+[2025-04-22T16:44:45.751476 41668] Config: (default) reshare = false
+[2025-04-22T16:44:45.751476 41668] Config: (default) run_second_cpp = true
+[2025-04-22T16:44:45.751476 41668] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2025-04-22T16:44:45.751476 41668] Config: (default) stats = true
+[2025-04-22T16:44:45.751476 41668] Config: (default) stats_log = 
+[2025-04-22T16:44:45.751476 41668] Config: (default) temporary_dir = C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2025-04-22T16:44:45.751476 41668] Config: (default) umask = 
+[2025-04-22T16:44:45.751584 41668] Command line: C:\\Users\\Capi\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\ccache.exe C:\\Users\\Capi\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -o __helpers.o -c -std=c11 -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -shared -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_MOULE -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\Capi\\AppData\\Local\\Programs\\Python\\Python38\\include -I. -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace __loader.c
+DULE -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\Capi\\AppData\\Local\\Programs\\Python\\Python38\\include -I. -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace __helpers.c
+[2025-04-22T16:44:45.756311 41668] Hostname: vignesh
+[2025-04-22T16:44:45.756353 12076] Working directory: C:\Users\Capi\PYCHAR~1\DOCKER~1.PY\build\TEST_F~1.BUI
+[2025-04-22T16:44:45.756380 12076] Compiler: C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe
+[2025-04-22T16:44:45.756389 12076] Compiler type: gcc
+[2025-04-22T16:44:45.756409 41668] Compiler: C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe
+[2025-04-22T16:44:45.756423 41668] Compiler type: gcc
+[2025-04-22T16:44:45.756633 12076] Detected input file: __loader.c
+[2025-04-22T16:44:45.756729 41668] Detected input file: __helpers.c
+[2025-04-22T16:44:45.756751 12076] Source file: __loader.c
+[2025-04-22T16:44:45.756763 12076] Object file: __loader.o
+[2025-04-22T16:44:45.756878 41668] Source file: __helpers.c
+[2025-04-22T16:44:45.756940 41668] Object file: __helpers.o
+[2025-04-22T16:44:45.756961 12076] Trying direct lookup
+[2025-04-22T16:44:45.757181 41668] Trying direct lookup
+[2025-04-22T16:44:45.757251 12076] Manifest key: d77csub1kmtm7isft3et0jl5ebljidsou
+[2025-04-22T16:44:45.757512 12076] Retrieved d77csub1kmtm7isft3et0jl5ebljidsou from local storage (C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/d/7/7csub1kmtm7isft3et0jl5ebljidsouM)
+[2025-04-22T16:44:45.757539 41668] Manifest key: 5dc1o46nohpul730f3ph9hruo9ebr1q82
+[2025-04-22T16:44:45.757736 41668] Retrieved 5dc1o46nohpul730f3ph9hruo9ebr1q82 from local storage (C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/5/d/c1o46nohpul730f3ph9hruo9ebr1q82M)
+[2025-04-22T16:44:45.768247 14316] === CCACHE 4.10.2 STARTED =========================================
+[2025-04-22T16:44:45.768313 14316] Configuration file: C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2025-04-22T16:44:45.768355 14316] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2025-04-22T16:44:45.768355 14316] Config: (default) absolute_paths_in_stderr = false
+[2025-04-22T16:44:45.768355 14316] Config: (default) base_dir = 
+[2025-04-22T16:44:45.768355 14316] Config: (environment) cache_dir = C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2025-04-22T16:44:45.768355 14316] Config: (default) compiler = 
+[2025-04-22T16:44:45.768355 14316] Config: (default) compiler_check = mtime
+[2025-04-22T16:44:45.768355 14316] Config: (default) compiler_type = auto
+[2025-04-22T16:44:45.768355 14316] Config: (default) compression = true
+[2025-04-22T16:44:45.768355 14316] Config: (default) compression_level = 0
+[2025-04-22T16:44:45.768355 14316] Config: (default) cpp_extension = 
+[2025-04-22T16:44:45.768355 14316] Config: (default) debug = false
+[2025-04-22T16:44:45.768355 14316] Config: (default) debug_dir = 
+[2025-04-22T16:44:45.768355 14316] Config: (default) debug_level = 2
+[2025-04-22T16:44:45.768355 14316] Config: (default) depend_mode = false
+[2025-04-22T16:44:45.768355 14316] Config: (default) direct_mode = true
+[2025-04-22T16:44:45.768355 14316] Config: (default) disable = false
+[2025-04-22T16:44:45.768355 14316] Config: (default) extra_files_to_hash = 
+[2025-04-22T16:44:45.768355 14316] Config: (default) file_clone = false
+[2025-04-22T16:44:45.768355 14316] Config: (default) hard_link = false
+[2025-04-22T16:44:45.768355 14316] Config: (default) hash_dir = true
+[2025-04-22T16:44:45.768355 14316] Config: (default) ignore_headers_in_manifest = 
+[2025-04-22T16:44:45.768355 14316] Config: (default) ignore_options = 
+[2025-04-22T16:44:45.768355 14316] Config: (default) inode_cache = false
+[2025-04-22T16:44:45.768355 14316] Config: (default) keep_comments_cpp = false
+[2025-04-22T16:44:45.768355 14316] Config: (environment) log_file = C:\Users\Capi\PYCHAR~1\DOCKER~1.PY\build\TEST_F~1.BUI\ccache-32140.txt
+[2025-04-22T16:44:45.768355 14316] Config: (default) max_files = 0
+[2025-04-22T16:44:45.768355 14316] Config: (default) max_size = 5.0 GiB
+[2025-04-22T16:44:45.768355 14316] Config: (default) msvc_dep_prefix = Note: including file:
+[2025-04-22T16:44:45.768355 14316] Config: (default) namespace = 
+[2025-04-22T16:44:45.768355 14316] Config: (default) path = 
+[2025-04-22T16:44:45.768355 14316] Config: (default) pch_external_checksum = false
+[2025-04-22T16:44:45.768355 14316] Config: (default) prefix_command = 
+[2025-04-22T16:44:45.768355 14316] Config: (default) prefix_command_cpp = 
+[2025-04-22T16:44:45.768355 14316] Config: (default) read_only = false
+[2025-04-22T16:44:45.768355 14316] Config: (default) read_only_direct = false
+[2025-04-22T16:44:45.768355 14316] Config: (default) recache = false
+[2025-04-22T16:44:45.768355 14316] Config: (default) remote_only = false
+[2025-04-22T16:44:45.768355 14316] Config: (default) remote_storage = 
+[2025-04-22T16:44:45.768355 14316] Config: (default) reshare = false
+[2025-04-22T16:44:45.768355 14316] Config: (default) run_second_cpp = true
+[2025-04-22T16:44:45.768355 14316] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2025-04-22T16:44:45.768355 14316] Config: (default) stats = true
+[2025-04-22T16:44:45.768355 14316] Config: (default) stats_log = 
+[2025-04-22T16:44:45.768355 14316] Config: (default) temporary_dir = C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2025-04-22T16:44:45.768355 14316] Config: (default) umask = 
+[2025-04-22T16:44:45.768466 14316] Command line: C:\\Users\\Capi\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\ccache.exe C:\\Users\\Capi\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -o module.test_functional.o -c -std=c11 -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -shared -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_MODULE -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\Capi\\AppData\\Local\\Programs\\Python\\Python38\\include -I. -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace module.test_functional.c
+[2025-04-22T16:44:45.773143 14316] Hostname: vignesh
+[2025-04-22T16:44:45.773176 14316] Working directory: C:\Users\Capi\PYCHAR~1\DOCKER~1.PY\build\TEST_F~1.BUI
+[2025-04-22T16:44:45.773202 14316] Compiler: C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe
+[2025-04-22T16:44:45.773211 14316] Compiler type: gcc
+[2025-04-22T16:44:45.773468 14316] Detected input file: module.test_functional.c
+[2025-04-22T16:44:45.773606 14316] Source file: module.test_functional.c
+[2025-04-22T16:44:45.773620 14316] Object file: module.test_functional.o
+[2025-04-22T16:44:45.773824 14316] Trying direct lookup
+[2025-04-22T16:44:45.774301 14316] Manifest key: 7b5fg1i54lrihacj03g4gjdo14307d9h0
+[2025-04-22T16:44:45.774408 14316] No 7b5fg1i54lrihacj03g4gjdo14307d9h0 in local storage
+[2025-04-22T16:44:45.775082 14316] Running preprocessor
+[2025-04-22T16:44:45.775366 14316] Executing C:\\Users\\Capi\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -std=c11 -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -shared -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_MODULE -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\Capi\\AppData\\Local\\Programs\\Python\\Python38\\include -I. -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace -E -o C:\\Users\\Capi\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\ccache/tmp/cpp_stdout.tmp.idpI7x.i module.test_functional.c
+[2025-04-22T16:44:45.822792 1660 ] Got result key from manifest
+[2025-04-22T16:44:45.822830 1660 ] Result key: 64d16kkd0dlkeaads8futh3us91f4meci
+[2025-04-22T16:44:45.822961 1660 ] Retrieved 64d16kkd0dlkeaads8futh3us91f4meci from local storage (C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/6/4/d16kkd0dlkeaads8futh3us91f4meciR)
+[2025-04-22T16:44:45.823179 1660 ] Reading embedded entry #0 .o (18083 bytes)
+[2025-04-22T16:44:45.823247 1660 ] Writing to __constants.o
+[2025-04-22T16:44:45.823666 1660 ] Succeeded getting cached result
+[2025-04-22T16:44:45.823711 1660 ] Result: direct_cache_hit
+[2025-04-22T16:44:45.823719 1660 ] Result: local_storage_hit
+[2025-04-22T16:44:45.823729 1660 ] Result: local_storage_read_hit
+[2025-04-22T16:44:45.823740 1660 ] Result: local_storage_read_hit
+[2025-04-22T16:44:45.823775 1660 ] Acquiring C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/c/stats.lock
+[2025-04-22T16:44:45.824591 1660 ] Acquired C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/c/stats.lock
+[2025-04-22T16:44:45.826362 12076] Got result key from manifest
+[2025-04-22T16:44:45.826408 12076] Result key: 84c865ccgobi03d6d4b7q5u6ce6r9ot7g
+[2025-04-22T16:44:45.826437 1660 ] Releasing C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/c/stats.lock
+[2025-04-22T16:44:45.826579 1660 ] Released C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/c/stats.lock
+pData\Local\Nuitka\Nuitka\Cache\ccache/8/4/c865ccgobi03d6d4b7q5u6ce6r9ot7gR)
+[2025-04-22T16:44:45.826794 12076] Reading embedded entry #0 .o (12407 bytes)
+[2025-04-22T16:44:45.826815 12076] Writing to __loader.o
+[2025-04-22T16:44:45.827303 12076] Succeeded getting cached result
+[2025-04-22T16:44:45.827344 12076] Result: direct_cache_hit
+[2025-04-22T16:44:45.827356 12076] Result: local_storage_hit
+[2025-04-22T16:44:45.827366 12076] Result: local_storage_read_hit
+[2025-04-22T16:44:45.827375 12076] Result: local_storage_read_hit
+[2025-04-22T16:44:45.827404 12076] Acquiring C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/c/stats.lock
+[2025-04-22T16:44:45.827471 41668] Got result key from manifest
+[2025-04-22T16:44:45.827499 41668] Result key: f231hr9astut35asoc5vui3l1umiqgtt4
+[2025-04-22T16:44:45.827650 41668] Retrieved f231hr9astut35asoc5vui3l1umiqgtt4 from local storage (C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/f/2/31hr9astut35asoc5vui3l1umiqgtt4R)
+[2025-04-22T16:44:45.827886 41668] Reading embedded entry #0 .o (2651 bytes)
+[2025-04-22T16:44:45.827910 41668] Writing to __helpers.o
+[2025-04-22T16:44:45.828490 12076] Acquired C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/c/stats.lock
+[2025-04-22T16:44:45.828669 41668] Succeeded getting cached result
+[2025-04-22T16:44:45.828714 41668] Result: direct_cache_hit
+[2025-04-22T16:44:45.828727 41668] Result: local_storage_hit
+[2025-04-22T16:44:45.828761 41668] Result: local_storage_read_hit
+[2025-04-22T16:44:45.828772 41668] Result: local_storage_read_hit
+[2025-04-22T16:44:45.828814 41668] Acquiring C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/4/stats.lock
+[2025-04-22T16:44:45.829917 41668] Acquired C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/4/stats.lock
+[2025-04-22T16:44:45.831165 41668] Releasing C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/4/stats.lock
+[2025-04-22T16:44:45.831319 41668] Released C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/c/4/stats.lock
+[2025-04-22T16:44:45.832677 12076] Releasing C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/c/stats.lock
+[2025-04-22T16:44:45.832843 12076] Released C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/c/stats.lock
+[2025-04-22T16:44:45.924776 7824 ] === CCACHE 4.10.2 STARTED =========================================
+[2025-04-22T16:44:45.924822 7824 ] Configuration file: C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache\ccache.conf
+[2025-04-22T16:44:45.924832 7824 ] System configuration file: C:\ProgramData\ccache\ccache.conf
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) absolute_paths_in_stderr = false
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) base_dir = 
+[2025-04-22T16:44:45.924832 7824 ] Config: (environment) cache_dir = C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) compiler = 
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) compiler_check = mtime
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) compiler_type = auto
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) compression = true
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) compression_level = 0
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) cpp_extension = 
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) debug = false
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) debug_dir = 
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) debug_level = 2
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) depend_mode = false
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) direct_mode = true
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) disable = false
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) extra_files_to_hash = 
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) file_clone = false
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) hard_link = false
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) hash_dir = true
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) ignore_headers_in_manifest = 
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) ignore_options = 
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) inode_cache = false
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) keep_comments_cpp = false
+[2025-04-22T16:44:45.924832 7824 ] Config: (environment) log_file = C:\Users\Capi\PYCHAR~1\DOCKER~1.PY\build\TEST_F~1.BUI\ccache-32140.txt
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) max_files = 0
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) max_size = 5.0 GiB
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) msvc_dep_prefix = Note: including file:
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) namespace = 
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) path = 
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) pch_external_checksum = false
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) prefix_command = 
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) prefix_command_cpp = 
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) read_only = false
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) read_only_direct = false
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) recache = false
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) remote_only = false
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) remote_storage = 
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) reshare = false
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) run_second_cpp = true
+[2025-04-22T16:44:45.924832 7824 ] Config: (environment) sloppiness = include_file_ctime, include_file_mtime
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) stats = true
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) stats_log = 
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) temporary_dir = C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp
+[2025-04-22T16:44:45.924832 7824 ] Config: (default) umask = 
+[2025-04-22T16:44:45.924904 7824 ] Command line: C:\\Users\\Capi\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\ccache.exe C:\\Users\\Capi\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -o static_src\\CompiledFunctionType.o -c -std=c11 -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -shared -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_MODULE -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\Capi\\AppData\\Local\\Programs\\Python\\Python38\\include -I. -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace static_src\\CompiledFunctionType.c
+[2025-04-22T16:44:45.928760 7824 ] Hostname: vignesh
+[2025-04-22T16:44:45.928787 7824 ] Working directory: C:\Users\Capi\PYCHAR~1\DOCKER~1.PY\build\TEST_F~1.BUI
+[2025-04-22T16:44:45.928808 7824 ] Compiler: C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\DOWNLO~1\gcc\x86_64\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\mingw64\bin\gcc.exe
+[2025-04-22T16:44:45.928816 7824 ] Compiler type: gcc
+[2025-04-22T16:44:45.929042 7824 ] Detected input file: static_src\CompiledFunctionType.c
+[2025-04-22T16:44:45.929155 7824 ] Source file: static_src\CompiledFunctionType.c
+[2025-04-22T16:44:45.929165 7824 ] Object file: static_src\CompiledFunctionType.o
+[2025-04-22T16:44:45.929328 7824 ] Trying direct lookup
+[2025-04-22T16:44:45.929682 7824 ] Manifest key: b21ef56iji13kgmomivjf4tiqoreltjak
+[2025-04-22T16:44:45.929802 7824 ] Retrieved b21ef56iji13kgmomivjf4tiqoreltjak from local storage (C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/b/2/1ef56iji13kgmomivjf4tiqoreltjakM)
+[2025-04-22T16:44:45.991778 7824 ] Got result key from manifest
+[2025-04-22T16:44:45.991813 7824 ] Result key: 3d19rpuebgtnfi9bo27npq4lfujqufp9g
+[2025-04-22T16:44:45.993140 7824 ] Retrieved 3d19rpuebgtnfi9bo27npq4lfujqufp9g from local storage (C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/3/d/19rpuebgtnfi9bo27npq4lfujqufp9gR)
+[2025-04-22T16:44:45.995752 7824 ] Reading embedded entry #0 .o (3776058 bytes)
+[2025-04-22T16:44:45.995787 7824 ] Writing to static_src\CompiledFunctionType.o
+[2025-04-22T16:44:45.997438 7824 ] Succeeded getting cached result
+[2025-04-22T16:44:45.997614 7824 ] Result: direct_cache_hit
+[2025-04-22T16:44:45.997623 7824 ] Result: local_storage_hit
+[2025-04-22T16:44:45.997629 7824 ] Result: local_storage_read_hit
+[2025-04-22T16:44:45.997635 7824 ] Result: local_storage_read_hit
+[2025-04-22T16:44:45.997680 7824 ] Acquiring C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2025-04-22T16:44:45.998567 7824 ] Acquired C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2025-04-22T16:44:45.999222 7824 ] Releasing C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2025-04-22T16:44:45.999358 7824 ] Released C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/9/0/stats.lock
+[2025-04-22T16:44:46.547850 14316] Got result key from preprocessor
+[2025-04-22T16:44:46.547880 14316] Result key: 2d9c0n310n459b877n9q1iosf3478cusk
+[2025-04-22T16:44:46.547977 14316] No 2d9c0n310n459b877n9q1iosf3478cusk in local storage
+[2025-04-22T16:44:46.548000 14316] Running real compiler
+[2025-04-22T16:44:46.548441 14316] Executing C:\\Users\\Capi\\AppData\\Local\\Nuitka\\Nuitka\\Cache\\DOWNLO~1\\gcc\\x86_64\\14.2.0posix-19.1.1-12.0.0-msvcrt-r2\\mingw64\\bin\\gcc.exe -std=c11 -flto=12 -fuse-linker-plugin -fno-fat-lto-objects -fvisibility=hidden -fwrapv -pipe -fpartial-inlining -ftrack-macro-expansion=0 -Wno-deprecated-declarations -fno-var-tracking -Wno-misleading-indentation -fcompare-debug-second -O3 -shared -D_WIN32_WINNT=0x0601 -D__NUITKA_NO_ASSERT__ -DMS_WIN64 -D_NUITKA_CONSTANTS_FROM_RESOURCE -D_NUITKA_FROZEN=0 -D_NUITKA_MODULE -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\zlib -IC:\\Users\\Capi\\AppData\\Local\\Programs\\Python\\Python38\\include -I. -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\include -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\static_src -IC:\\Users\\Capi\\PYCHAR~1\\DOCKER~1.PY\\VENV~1\\Lib\\SITE-P~1\\nuitka\\build\\inline_copy\\libbacktrace -c -fdiagnostics-color -o module.test_functional.o module.test_functional.c
+[2025-04-22T16:44:47.649517 14316] Using Zstandard with default compression level 1
+[2025-04-22T16:44:47.649676 14316] Storing embedded entry #0 .o (290678 bytes) from module.test_functional.o
+[2025-04-22T16:44:47.651255 14316] Acquiring C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_2d.lock
+[2025-04-22T16:44:47.651467 14316] Acquired C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_2d.lock
+[2025-04-22T16:44:47.651899 14316] Stored 2d9c0n310n459b877n9q1iosf3478cusk in local storage (C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/d/9c0n310n459b877n9q1iosf3478cuskR)
+[2025-04-22T16:44:47.651970 14316] Acquiring C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2025-04-22T16:44:47.652120 14316] Acquired C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2025-04-22T16:44:47.653286 14316] Releasing C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2025-04-22T16:44:47.653411 14316] Released C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/2/stats.lock
+[2025-04-22T16:44:47.653423 14316] Releasing C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_2d.lock
+[2025-04-22T16:44:47.653498 14316] Released C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_2d.lock
+[2025-04-22T16:44:47.669023 14316] Added result key to manifest 7b5fg1i54lrihacj03g4gjdo14307d9h0
+[2025-04-22T16:44:47.669052 14316] Using Zstandard with default compression level 1
+[2025-04-22T16:44:47.670039 14316] Acquiring C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_7b.lock
+[2025-04-22T16:44:47.670199 14316] Acquired C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_7b.lock
+[2025-04-22T16:44:47.670543 14316] Stored 7b5fg1i54lrihacj03g4gjdo14307d9h0 in local storage (C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/b/5fg1i54lrihacj03g4gjdo14307d9h0M)
+[2025-04-22T16:44:47.670617 14316] Acquiring C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2025-04-22T16:44:47.670811 14316] Acquired C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2025-04-22T16:44:47.671988 14316] Releasing C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2025-04-22T16:44:47.672114 14316] Released C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/7/stats.lock
+[2025-04-22T16:44:47.672126 14316] Releasing C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_7b.lock
+[2025-04-22T16:44:47.672225 14316] Released C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/subdir_7b.lock
+[2025-04-22T16:44:47.672304 14316] Result: cache_miss
+[2025-04-22T16:44:47.672312 14316] Result: direct_cache_miss
+[2025-04-22T16:44:47.672319 14316] Result: local_storage_miss
+[2025-04-22T16:44:47.672331 14316] Result: local_storage_read_miss
+[2025-04-22T16:44:47.672337 14316] Result: local_storage_read_miss
+[2025-04-22T16:44:47.672343 14316] Result: local_storage_write
+[2025-04-22T16:44:47.672349 14316] Result: local_storage_write
+[2025-04-22T16:44:47.672355 14316] Result: preprocessed_cache_miss
+[2025-04-22T16:44:47.672368 14316] Acquiring C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/c/stats.lock
+[2025-04-22T16:44:47.672807 14316] Acquired C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/c/stats.lock
+[2025-04-22T16:44:47.674103 14316] Releasing C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/c/stats.lock
+[2025-04-22T16:44:47.674275 14316] Released C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/e/c/stats.lock
+[2025-04-22T16:44:47.674336 14316] Trying to acquire C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/auto_cleanup.lock
+[2025-04-22T16:44:47.674570 14316] Acquired C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/auto_cleanup.lock
+[2025-04-22T16:44:47.678879 14316] No automatic cleanup needed (size 21.5 MiB, files 86, max size 5.0 GiB)
+[2025-04-22T16:44:47.678902 14316] Releasing C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/auto_cleanup.lock
+[2025-04-22T16:44:47.679053 14316] Released C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/lock/auto_cleanup.lock
+[2025-04-22T16:44:47.679325 14316] Removing C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/stderr.tmp.FDjbav.tmp
+[2025-04-22T16:44:47.679477 14316] Removing C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/stdout.tmp.wnIGMJ.tmp
+[2025-04-22T16:44:47.679619 14316] Removing C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/stderr.tmp.m4flhP.tmp
+[2025-04-22T16:44:47.680419 14316] Removing C:\Users\Capi\AppData\Local\Nuitka\Nuitka\Cache\ccache/tmp/cpp_stdout.tmp.idpI7x.i
